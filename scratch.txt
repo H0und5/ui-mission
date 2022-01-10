@@ -1,0 +1,104 @@
+    setCounter1()
+
+    const randomNumber = Math.floor(Math.random() * 40);
+    
+    setCounter1(counter1  randomNumber)
+    
+    console.log(counter1)
+
+handle click function 
+
+
+---------------------
+
+    <div className="section-container-1">
+       <p className="body-paragraph-1">
+        <span className="green-color-cool-sweet">
+           Design a {props.pattern[pattern]} 
+        </span> with a <span className="yellow-color-cool-sweet">
+          {props.company[company]} 
+        </span> on the <span className="blue-color-cool-sweet">
+          {props.platform[platform]}
+        </span> for a <span className="pink-color-cool-sweet">
+          {props.device[device]}
+        </span>
+      </p>
+
+    </div>
+
+
+----------------------
+
+const resources = [
+  apple: [
+    {
+      id: 1,
+      name: "Apple's Human Interface Guidelines",
+      link: "www.google.com"
+    },
+    {
+      id: 1,
+      name: "Apple's Human Interface Guidelines",
+      link: "www.google.com"
+    },
+    {
+      id: 1,
+      name: "Apple's Human Interface Guidelines",
+      link: "www.google.com"
+    },
+    {
+      id: 1,
+      name: "Apple's Human Interface Guidelines",
+      link: "www.google.com"
+    },
+    {
+      id: 1,
+      name: "Apple's Human Interface Guidelines",
+      link: "www.google.com"
+    },
+    {
+      id: 1,
+      name: "Apple's Human Interface Guidelines",
+      link: "www.google.com"
+    },
+    {
+      id: 1,
+      name: "Apple's Human Interface Guidelines",
+      link: "www.google.com"
+    }
+  ],
+
+  android: [
+    {
+      id: 1,
+      name: "Google's Material",
+      link: "www.google.com"
+    },
+    {
+      id: 1,
+      name: "Google's Material",
+      link: "www.google.com"
+    },
+    {
+      id: 1,
+      name: "Google's Material",
+      link: "www.google.com"
+    },
+    {
+      id: 1,
+      name: "Google's Material",
+      link: "www.google.com"
+    },
+    {
+      id: 1,
+      name: "Google's Material",
+      link: "www.google.com"
+    },
+    {
+      id: 1,
+      name: "Google's Material",
+      link: "www.google.com"
+    }
+    
+  ]
+]
